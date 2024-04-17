@@ -4,7 +4,7 @@ import presidentialStudentLunch from '../assets/csm_20211111_Presidential_studen
 
 const DegreePrograms = () => {
   return (
-    <div className='px-4 sm:px-10'>
+    <div className=''>
         <div className='flex justify-between bg-gray-200 hover hover:bg-gray-100 h-16 border-b border-secondary'>
             <button className='px-4'>Select degree program or enter keyword</button>
             <img src={chevronDown} alt="chevron down" className='px-3'/>

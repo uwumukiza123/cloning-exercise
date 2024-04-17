@@ -8,7 +8,7 @@ const Navbar = () => {
   return (
     <div className='bg-primary text-white sticky z-10 top-0'>
         <div className='flex p-4 items-center'>
-        <div className='flex pr-20 sm:pr-56'>
+        <div className='flex pr-5 sm:pr-56'>
             <img src={logo} alt="university of munich" />
             <span className='hidden sm:block w-20 text-xs px-2'>Technical University of Munich</span>
         </div>
@@ -23,7 +23,7 @@ const Navbar = () => {
                 <ul><a href="">ABOUT TUM</a></ul>
             </ul>
         </div>
-        <div className='flex sm:pl-20 pl-10 gap-6 sm:gap-2'>
+        <div className='flex sm:pl-20 pl-10 gap-4 sm:gap-2'>
             <img src={gridIcon} alt="" />
             <div className='flex'>DE <div className='px-2'><div className='h-6 w-[2px] bg-white'></div></div> EN</div>
             <img src={lightModeIcon} alt="light mode" />
