@@ -8,15 +8,15 @@ const Discover = () => {
             <h1 className='text-3xl'>Discover what TUM has to offer</h1>
         </div>
         <ul className='grid grid-cols-3 sm:flex gap-4 justify-between'>
-            <li className='hover:bg-secondary p-3 bg-gray-300 hover:text-white font-medium'>Prospective Students</li>
-            <li className='hover:bg-secondary p-3 bg-gray-300 hover:text-white font-medium'>Students</li>
-            <li className='hover:bg-secondary p-3 bg-gray-300 hover:text-white font-medium'>Researchers</li>
-            <li className='hover:bg-secondary p-3 bg-gray-300 hover:text-white font-medium'>Employees</li>
-            <li className='hover:bg-secondary p-3 bg-gray-300 hover:text-white font-medium'>Alumni</li>
-            <li className='hover:bg-secondary p-3 bg-gray-300 hover:text-white font-medium'>Executive and professionals</li>
-            <li className='hover:bg-secondary p-3 bg-gray-300 hover:text-white font-medium'>Founders</li>
-            <li className='hover:bg-secondary p-3 bg-gray-300 hover:text-white font-medium'>Cooperations</li>
-            <li className='hover:bg-secondary p-3 bg-gray-300 hover:text-white font-medium'>Press and media</li>
+            <li className='hover:bg-secondary p-3 bg-gray-300 hover:text-white font-medium'><a href="">Prospective Students</a></li>
+            <li className='hover:bg-secondary p-3 bg-gray-300 hover:text-white font-medium'><a href="">Students</a></li>
+            <li className='hover:bg-secondary p-3 bg-gray-300 hover:text-white font-medium'><a href="">Researchers</a></li>
+            <li className='hover:bg-secondary p-3 bg-gray-300 hover:text-white font-medium'><a href="">Employees</a></li>
+            <li className='hover:bg-secondary p-3 bg-gray-300 hover:text-white font-medium'><a href="">Alumni</a></li>
+            <li className='hover:bg-secondary p-3 bg-gray-300 hover:text-white font-medium'><a href="">Executive and professionals</a></li>
+            <li className='hover:bg-secondary p-3 bg-gray-300 hover:text-white font-medium'><a href="">Founders</a></li>
+            <li className='hover:bg-secondary p-3 bg-gray-300 hover:text-white font-medium'><a href="">Cooperations</a></li>
+            <li className='hover:bg-secondary p-3 bg-gray-300 hover:text-white font-medium'><a href="">Press and media</a></li>
         </ul>
         
         <div className='grid sm:flex justify-between gap-16 md:p-20 py-20'>
